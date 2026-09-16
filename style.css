@@ -1,0 +1,138 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+
+#main-header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+
+.expense-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+}
+
+
+h2 {
+    color: #1f2937;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #9ca3af;
+    border-radius: 5px;
+}
+
+
+#expenses-list {
+    background-color: #dbeafe;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #93c5fd;
+}
+
+
+#expenses-list p {
+    color: #374151;
+    font-style: italic;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+tbody tr:nth-child(even) {
+    background-color: #eff6ff;
+}
+tbody tr:hover {
+    background-color: #dbeafe;
+    cursor: pointer;
+}
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #2563eb;
+}
+input:not([type="submit"]) {
+    background-color: #f9fafb;
+}
+.expense-section > h2 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 10px;
+}
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #1d4ed8;
+}
+details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}

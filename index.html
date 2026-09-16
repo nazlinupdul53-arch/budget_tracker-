@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <h1>My Budget Tracker</h1>
+
+        <img
+            src="image/image.png"
+            alt="Budget tracker icon"
+            width="100"
+        >
+
+        <p>Track your income and expenses in one place.</p>
+    </header>
+
+    <main>
+
+        <section class="expense-section">
+            <h2>Add Expense</h2>
+
+            <form id="expense-form">
+
+                <label for="expense-name">Expense Name:</label>
+                <input
+                    type="text"
+                    id="expense-name"
+                    placeholder="Enter expense name"
+                >
+
+                <label for="amount">Amount:</label>
+                <input
+                    type="number"
+                    id="amount"
+                    placeholder="Enter amount"
+                >
+
+                <label for="category">Category:</label>
+
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="Food">Food</option>
+                    <option value="Transport">Transport</option>
+                    <option value="Rent">Rent</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <button type="button">Add Expense</button>
+
+            </form>
+
+            <details>
+                <summary>How to use this tracker</summary>
+                <p>
+                    Enter the expense name, amount, and category,
+                    then click the Add Expense button.
+                </p>
+            </details>
+
+        </section>
+
+
+        <section id="expenses-list">
+
+            <h2>Your Expenses</h2>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Amount (KES)</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Lunch</td>
+                        <td>250</td>
+                        <td>Food</td>
+                        <td>2026-09-10</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bus Fare</td>
+                        <td>100</td>
+                        <td>Transport</td>
+                        <td>2026-09-11</td>
+                    </tr>
+
+                    <tr>
+                        <td>Notebook</td>
+                        <td>150</td>
+                        <td>Education</td>
+                        <td>2026-09-12</td>
+                    </tr>
+
+                    <tr>
+                        <td>Movie</td>
+                        <td>500</td>
+                        <td>Entertainment</td>
+                        <td>2026-09-13</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rent</td>
+                        <td>5000</td>
+                        <td>Rent</td>
+                        <td>2026-09-14</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section class="media-section">
+
+            <h2>Budgeting Tips</h2>
+
+         <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/ELddtcZouP0"
+    title="Budgeting tips video"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
